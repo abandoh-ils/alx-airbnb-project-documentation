@@ -17,6 +17,7 @@
             * Photo uploads
             * Contact information
             * Notifiication preferences
+       
         ![FD-profile-management](/features-and-functionalities/FD-profile-management.png)
         *Flow diagram for the profile management*
 
@@ -39,20 +40,23 @@
         * Relevance sorting (best match, price, rating)
 
 3. **Booking System**
-
+   
     ![FD-booking-system](/features-and-functionalities/FD-booking-system.png)
     *Flow diagram of the booking system*
+   
     * **Reservation Workflow**
         * Real-time availability verification
         * Price calculation (nights × rate + fees)
         * Hold mechanism (15-min reservation lock)
     * **Booking Management**
         * Status tracking:
+          
         ![SD-status-tracking](/features-and-functionalities/SD-status-tracking.png)
         *State diagram for booking status tracking*
+      
         * Cancellation policy engine (flexible/moderate/strict)
 
-4. **Payment Processing**
+5. **Payment Processing**
     * **Transaction Flow**
         * Stripe/PayPal integration
         * Multi-currency support (USD, EUR, GBP)
@@ -62,7 +66,7 @@
         * Fraud detection rules
         * Refund automation with policy tiers
 
-5. **Reviews & Ratings**
+6. **Reviews & Ratings**
     * **Review System**
         * Dual-rating (property + host)
         * Verified-stay requirement
@@ -72,16 +76,18 @@
         * Report/flag system
         * Auto-moderation thresholds
 
-6. **Notification Engine**
+7. **Notification Engine**
     **Trigger**|**Recipient**|**Channels**
     Booking confirmation| Guest| Email, SMS, Push
     New review| Host| In-app, Email
     Payment failure| Guest| SMS, In-app
     Check-in reminder| Both| Push
 
-7. **Admin Dashboard**
+8. **Admin Dashboard**
+   
     ![CD-admin-dashboard](/features-and-functionalities/CD-admin-dashboard.png)
     *Class diagram of admin dashboard*
+   
     * **Monitoring Tools**
         * Suspicious activity detection
         * Performance metrics (API latency, errors)
