@@ -1,0 +1,82 @@
+<mxfile>
+    <diagram>
+        <mxGraphModel dx="1426" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <!-- User Management -->
+                <mxCell id="userMgmt" value="&lt;b&gt;User Management&lt;/b&gt;&lt;div&gt;Registration, Auth, Profiles&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="250" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="reg" value="&lt;b&gt;Registration&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Email/Password&lt;br&gt;OAuth (Google/FB)&lt;br&gt;Role Selection&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="userMgmt" vertex="1">
+                    <mxGeometry x="25" y="30" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="auth" value="&lt;b&gt;Authentication&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;JWT Tokens&lt;br&gt;Session Mgmt&lt;br&gt;RBAC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="userMgmt" vertex="1">
+                    <mxGeometry x="25" y="100" width="200" height="60" as="geometry"/>
+                </mxCell>
+
+                <!-- Property Management -->
+                <mxCell id="propMgmt" value="&lt;b&gt;Property Management&lt;/b&gt;&lt;div&gt;Listings, Availability&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;shadow=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="40" width="250" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="listing" value="&lt;b&gt;Listing Operations&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;CRUD Properties&lt;br&gt;Media Uploads&lt;br&gt;Amenities&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;" parent="propMgmt" vertex="1">
+                    <mxGeometry x="25" y="30" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="availability" value="&lt;b&gt;Availability System&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Calendar Mgmt&lt;br&gt;Conflict Detection&lt;br&gt;Booking Rules&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;" parent="propMgmt" vertex="1">
+                    <mxGeometry x="25" y="100" width="200" height="60" as="geometry"/>
+                </mxCell>
+
+                <!-- Booking System -->
+                <mxCell id="booking" value="&lt;b&gt;Booking System&lt;/b&gt;&lt;div&gt;Reservations, Calendar&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;shadow=1;fillColor=#fff2cc;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="250" width="250" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="workflow" value="&lt;b&gt;Reservation Workflow&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Real-time Availability&lt;br&gt;Price Calculation&lt;br&gt;Hold Mechanism&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#fff2cc;" parent="booking" vertex="1">
+                    <mxGeometry x="25" y="30" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="status" value="&lt;b&gt;Status Management&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Confirmed/Pending&lt;br&gt;Cancellations&lt;br&gt;Completion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#fff2cc;" parent="booking" vertex="1">
+                    <mxGeometry x="25" y="100" width="200" height="60" as="geometry"/>
+                </mxCell>
+
+                <!-- Payment System -->
+                <mxCell id="payment" value="&lt;b&gt;Payment System&lt;/b&gt;&lt;div&gt;Transactions, Security&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;shadow=1;fillColor=#f8cecc;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="250" width="250" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="transactions" value="&lt;b&gt;Transaction Flow&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Stripe/PayPal&lt;br&gt;Multi-currency&lt;br&gt;Payout Scheduling&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;" parent="payment" vertex="1">
+                    <mxGeometry x="25" y="30" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="security" value="&lt;b&gt;Financial Safeguards&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;PCI Compliance&lt;br&gt;Fraud Detection&lt;br&gt;Refund Automation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;" parent="payment" vertex="1">
+                    <mxGeometry x="25" y="100" width="200" height="60" as="geometry"/>
+                </mxCell>
+
+                <!-- Additional Modules -->
+                <mxCell id="reviews" value="&lt;b&gt;Reviews &amp; Ratings&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Verified Reviews&lt;br&gt;Host Responses&lt;br&gt;Anti-Abuse&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="60" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="notifications" value="&lt;b&gt;Notifications&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Email/SMS/Push&lt;br&gt;Event Triggers&lt;br&gt;Templates&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="admin" value="&lt;b&gt;Admin Dashboard&lt;/b&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;User Mgmt&lt;br&gt;Financial Reports&lt;br&gt;Moderation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="260" width="160" height="80" as="geometry"/>
+                </mxCell>
+
+                <!-- Connectors -->
+                <mxCell id="conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="auth" target="workflow" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="availability" target="workflow" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="conn3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="workflow" target="transactions" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="conn4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="status" target="reviews" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="conn5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="transactions" target="notifications" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="conn6" value="⚠️" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="security" target="admin" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
