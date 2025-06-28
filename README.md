@@ -81,10 +81,11 @@
 
 7. **Notification Engine**
     |**Trigger**|**Recipient**|**Channels**|
-    Booking confirmation| Guest| Email, SMS, Push
-    New review| Host| In-app, Email
-    Payment failure| Guest| SMS, In-app
-    Check-in reminder| Both| Push
+    |:---------------------|:--------------|:--------------------|
+    |Booking confirmation| Guest| Email, SMS, Push|
+    |New review| Host| In-app, Email|
+    |Payment failure| Guest| SMS, In-app|
+    |Check-in reminder| Both| Push|
 
 8. **Admin Dashboard**
    
