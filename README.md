@@ -19,6 +19,7 @@
             * Notifiication preferences
        
         ![FD-profile-management](/features-and-functionalities/FD-profile-management.png)
+      
         *Flow diagram for the profile management*
 
 2. **Property Management**
@@ -42,6 +43,7 @@
 3. **Booking System**
    
     ![FD-booking-system](/features-and-functionalities/FD-booking-system.png)
+   
     *Flow diagram of the booking system*
    
     * **Reservation Workflow**
@@ -52,6 +54,7 @@
         * Status tracking:
           
         ![SD-status-tracking](/features-and-functionalities/SD-status-tracking.png)
+      
         *State diagram for booking status tracking*
       
         * Cancellation policy engine (flexible/moderate/strict)
@@ -77,7 +80,7 @@
         * Auto-moderation thresholds
 
 7. **Notification Engine**
-    **Trigger**|**Recipient**|**Channels**
+    |**Trigger**|**Recipient**|**Channels**|
     Booking confirmation| Guest| Email, SMS, Push
     New review| Host| In-app, Email
     Payment failure| Guest| SMS, In-app
@@ -86,6 +89,7 @@
 8. **Admin Dashboard**
    
     ![CD-admin-dashboard](/features-and-functionalities/CD-admin-dashboard.png)
+   
     *Class diagram of admin dashboard*
    
     * **Monitoring Tools**
