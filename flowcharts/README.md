@@ -26,36 +26,36 @@ These flowcharts visualize each core process with real-world decision points, er
 
 ## BackEnd Processes
 
-    ![property-management-CRUD](/flowcharts/flow-property-crud.png)
+![property-management-CRUD](/flowcharts/flow-property-crud.png)
 
-    *Flowchart for property management CRUD*
+*Flowchart for property management CRUD*
 
-    ![search-and-filter](/flowcharts/flow-search-filter.png)
+![search-and-filter](/flowcharts/flow-search-filter.png)
 
-    *Flowchart for search and filter*
+*Flowchart for search and filter*
 
-    ![payment-processing](/flowcharts/flow-payment-processing.png)
+![payment-processing](/flowcharts/flow-payment-processing.png)
 
-    *Flowchart for payment*
+*Flowchart for payment*
 
-    ![review](/flowcharts/flow-review.png)
+![review](/flowcharts/flow-review.png)
 
-    *Flowchart for reviews*
+*Flowchart for reviews*
 
-    ![notification-service](/flowcharts/flow-notification-service.png)
+![notification-service](/flowcharts/flow-notification-service.png)
 
-    *Flowchart for notification service*
+*Flowchart for notification service*
 
-    ![admin-dashboard](/flowcharts/flow-admin-dashboard.png)
+![admin-dashboard](/flowcharts/flow-admin-dashboard.png)
 
-    *Flowchart for admin dashboard*
+*Flowchart for admin dashboard*
 
-    ![booking-engine](/flowcharts/flow-booking.png)
+![booking-engine](/flowcharts/flow-booking.png)
 
-    *Flowchart for booking engine*
+*Flowchart for booking engine*
 
-    ![authentication](/flowcharts/flow-authentication.png)
+![authentication](/flowcharts/flow-authentication.png)
 
-    *Flowchart for aunthenticating users*
+*Flowchart for aunthenticating users*
 
 
